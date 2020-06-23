@@ -101,3 +101,6 @@ HTes$NLoc[ix] <- B$Freq
 
 #write
 writeOGR(HTes, ".", "cmax_hexgrid_250sqkm_EPSG3035", driver="ESRI Shapefile", overwrite=TRUE)
+
+#plot
+plot(HTes, col=HTes@data$NLoc)
