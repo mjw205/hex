@@ -100,4 +100,4 @@ ix     <- is.element(HTes$ID, B$Var1)
 HTes$NLoc[ix] <- B$Freq
 
 #write
-writeOGR(HTes, ".", "arctic_terns_hexgrid_5sqkm_EPSG3035", driver="ESRI Shapefile", overwrite=TRUE)
+writeOGR(HTes, ".", "cmax_hexgrid_250sqkm_EPSG3035", driver="ESRI Shapefile", overwrite=TRUE)
