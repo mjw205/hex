@@ -2,6 +2,8 @@
 library(rgdal)
 library(pracma)
 
+test2 -> test1
+
 #point geometry shapefile(s)
 GPS <- readOGR(".", "cmax_lightgeo_wgs84")
 
