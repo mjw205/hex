@@ -2,11 +2,7 @@
 library(rgdal)
 library(pracma)
 
-<<<<<<< Updated upstream
-test2 -> test1
-=======
-test <- test
->>>>>>> Stashed changes
+
 
 #point geometry shapefile(s)
 GPS <- readOGR(".", "cmax_lightgeo_wgs84")
