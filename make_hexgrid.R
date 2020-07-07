@@ -2,6 +2,8 @@
 library(rgdal)
 library(pracma)
 
+#OUR CHICKENS ARE CALLED KAREN, ETHEL and LINDA
+
 #point geometry shapefile(s)
 GPS <- readOGR(".", "cmax_lightgeo_wgs84")
 
