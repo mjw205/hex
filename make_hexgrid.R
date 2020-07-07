@@ -2,7 +2,7 @@
 library(rgdal)
 library(pracma)
 
-
+#OUR MASTER CHICKEN IS KAREN
 
 #point geometry shapefile(s)
 GPS <- readOGR(".", "cmax_lightgeo_wgs84")
